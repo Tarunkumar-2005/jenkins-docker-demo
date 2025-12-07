@@ -7,7 +7,7 @@ pipeline {
                 git 'https://github.com/Tarunkumar-2005/jenkins-docker-demo.git'
             }
         }
-        stage('Test') {
+        stage('Install') {
             steps {
                 sh 'npm install'
             }
